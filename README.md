@@ -13,6 +13,9 @@ I am using Henry's law to calculate the amount of CO2 left in the beer after spu
 I am not including the amount of CO2 headpressure for this calculator.
 
 Some of the reading and resources i've used for the project so far:
+
 https://www.youtube.com/watch?v=VBYhYXIBR1c&ab_channel=FlaminGalahBrewingCo
+
 https://en.wikipedia.org/wiki/Henry%27s_law
+
 https://www.morebeer.com/articles/Spunding?srsltid=AfmBOorU-IDInq5HOttrdcPpWxOextuxopVTmRgh_V-XzhTe2oLN-HDC
