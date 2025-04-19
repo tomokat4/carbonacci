@@ -1,0 +1,156 @@
+﻿@page "/"
+@using System
+
+<h3 class="text-center">Carbonacci, the spunded beer carbonation calculator</h3>
+
+<EditForm Model="@parameters" OnValidSubmit="CalculateCarbonation">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group text-center">
+        <label for="beerType">Select fermentation type:</label>
+        <InputSelect @bind-Value="parameters.BeerType" id="beerType" class="form-control" @onchange="OnBeerTypeChanged">
+            <option value="Uncarbonated">Uncarbonated</option>
+            <option value="PressureFermented">Pressure Fermented</option>
+        </InputSelect>
+    </div>
+
+    <div class="form-group text-center">
+        <label for="volume">Liquid Volume (L):</label>
+        <InputNumber @bind-Value="parameters.Volume" id="volume" class="form-control" />
+    </div>
+
+    <div class="form-group text-center">
+        <label for="temperature">Max Fermentation Temperature (°C):</label>
+        <InputNumber @bind-Value="parameters.Temperature" id="temperature" class="form-control" />
+    </div>
+
+    <div class="form-group text-center">
+        <label for="desiredCarbonation">Desired Carbonation Vol (0.0-4.0):</label>
+        <InputNumber @bind-Value="parameters.DesiredCarbonation" id="desiredCarbonation" class="form-control" />
+    </div>
+
+    @if (parameters.BeerType == "PressureFermented")
+    {
+        <div class="form-group text-center">
+            <label for="fermentationPressure">Spunding Pressure (bar):</label>
+            <InputNumber @bind-Value="parameters.FermentationPressure" id="fermentationPressure" class="form-control" />
+        </div>
+    }
+
+    <button type="submit" class="btn btn-primary d-block mx-auto">Calculate</button>
+</EditForm>
+
+@if (calculationResult != null)
+{
+    <div class="text-center">
+        <h4>Results</h4>
+        <p><strong>Existing CO2 weight in the beer:</strong> @calculationResult.ExistingCO2g gram</p>
+        <p><strong>Needed CO2 weight for desired carbonation:</strong> @calculationResult.MissingCO2g gram</p>
+        @*<p><strong>Trykk som må påføres:</strong> @calculationResult.Pressure bar</p>
+        <p><strong>Tid for karbonering:</strong> @calculationResult.CarbonationTime dager</p>*@
+    </div>
+}
+
+@code {
+    private CarbonationParameters parameters = new CarbonationParameters();
+    private CarbonationResult calculationResult;
+
+    private void OnBeerTypeChanged(ChangeEventArgs e)
+    {
+        // Tilbakestill fermenteringstrykk hvis type endres
+        parameters.FermentationPressure = 0;
+    }
+
+    private void CalculateCarbonation()
+    {
+        if (parameters.BeerType == "Uncarbonated")
+        {
+            calculationResult = CarbonationCalculator.CalculateStandardCarbonation(parameters);
+        }
+        else if (parameters.BeerType == "PressureFermented")
+        {
+            calculationResult = CarbonationCalculator.CalculatePressureFermentation(parameters);
+        }
+    }
+
+    public class CarbonationParameters
+    {
+        public string BeerType { get; set; }
+        public double Volume { get; set; }
+        public double Temperature { get; set; }
+        public double DesiredCarbonation { get; set; }
+        public double FermentationPressure { get; set; }
+    }
+
+    public class CarbonationResult
+    {
+        public double ExistingCO2g { get; set; }  // Eksisterende CO2 i gram
+        public double MissingCO2g { get; set; }   // Manglende CO2 for ønsket karbonering i gram
+        public double Pressure { get; set; }      // Trykk som må påføres
+        public double CarbonationTime { get; set; } // Tid for karbonering i dager
+    }
+
+    public static class CarbonationCalculator
+    {
+        // Beregning for standard force-carbonation (ukarbonsert øl)
+        public static CarbonationResult CalculateStandardCarbonation(CarbonationParameters parameters)
+        {
+            // Bruk Brewers Friend tabell for force-carbonation
+            // Eksempelverdier basert på Brewers Friend chart (må justeres etter behov)
+
+            var carbonationTable = new Dictionary<int, double>
+            {
+                { 10, 2.0 },
+                { 12, 2.2 },
+                { 15, 2.5 },
+                { 18, 2.8 },
+                { 20, 3.0 }
+            };
+
+            double pressure = carbonationTable.ContainsKey((int)parameters.Temperature)
+                ? carbonationTable[(int)parameters.Temperature]
+                : 2.5;  // Default value
+
+            double carbonationTime = 7; // Standard tid for force-carbonation
+
+            return new CarbonationResult
+            {
+                Pressure = pressure,
+                CarbonationTime = carbonationTime
+            };
+        }
+
+        // Beregning for trykkfermentert øl basert på Henrys lov
+        public static CarbonationResult CalculatePressureFermentation(CarbonationParameters parameters)
+        {
+            // Henrys konstant for CO2 i øl ved 20°C (mol/L·atm)
+            double HenrysConstant = 3.3e-2;  
+            
+            // Beregn eksisterende CO2 i ølet (mol)
+            double co2Concentration = HenrysConstant * parameters.FermentationPressure;
+            double existingCO2mol = co2Concentration * parameters.Volume;
+
+            // Konverter til gram (1 mol CO2 ≈ 44.01 gram)
+            double existingCO2g = existingCO2mol * 44.01;
+
+            // Beregn den nødvendige mengden CO2 i ølet for ønsket karbonering (vol% CO2)
+            double desiredCO2 = parameters.DesiredCarbonation * parameters.Volume;
+            double missingCO2 = desiredCO2 - existingCO2g;
+
+            // Beregn trykket som trengs for å oppnå ønsket karbonering
+            double requiredPressure = missingCO2 / (HenrysConstant * parameters.Volume);
+
+            // Estimert tid for karbonering (justerbar basert på trykket)
+            double carbonationTime = 7;  // Eksempel, juster etter behov
+
+            return new CarbonationResult
+            {
+                ExistingCO2g = existingCO2g,
+                MissingCO2g = missingCO2,
+                Pressure = requiredPressure,
+                CarbonationTime = carbonationTime
+            };
+        }
+    }
+}

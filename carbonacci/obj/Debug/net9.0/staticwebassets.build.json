@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FK/1P60LdVJCFHHEAqs9Tz+QMiSzUa0FNmHEvEFYn+8=",
+  "Hash": "So7jkE25l+ghTAE67l0hJl6zTOl2/bDSrCo3gFfvO8I=",
   "Source": "carbonacci",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "fcr8qbp9wc",
-      "Integrity": "kY0hHTgmiRzVIXBH6zjrEftZ6/Lyxgkp5qiswZKUSR4=",
+      "Fingerprint": "o1jzee5epk",
+      "Integrity": "LOGQWx42S34Jyuz6za842Vh1xlVkgXhdY/72wmFh22Q=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "pexkvcuuio",
-      "Integrity": "IXX6fDO6D050hIbWeLD+uPHiqfcYnnK5LWEMuuAP05Q=",
+      "Fingerprint": "8zdvoa0gv0",
+      "Integrity": "fCdV9IujP2/qwhtbNhvtqXHhrvdnDY9WLOUPo7zO6VU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/carbonacci.pdb"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "k5rkntynqb",
-      "Integrity": "eLFeAbkLhlUCAYXStb6G8AScSt603s3/R3Ux9anRVYY=",
+      "Fingerprint": "pvgpf1eg3y",
+      "Integrity": "S+tQKnS5/iHATjCcdzsKKkedHRIEvdZ9AUi4qB+V/U0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/webcil/carbonacci.wasm"
@@ -7577,12 +7577,12 @@
       "OriginalItemSpec": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Physical.wasm"
     },
     {
-      "Identity": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/norgiu173o-k5rkntynqb.gz",
+      "Identity": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/norgiu173o-pvgpf1eg3y.gz",
       "SourceId": "carbonacci",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/carbonacci#[.{fingerprint=k5rkntynqb}]!.wasm.gz",
+      "RelativePath": "_framework/carbonacci#[.{fingerprint=pvgpf1eg3y}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7591,8 +7591,8 @@
       "RelatedAsset": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "salb0j5hfr",
-      "Integrity": "bAOVt3WC4Q7KfF4QylEIyTe49fG1Kt3ZRk0LS/mb6hk=",
+      "Fingerprint": "z3dldataew",
+      "Integrity": "YeVnR2j4YKPfibLlK1IxGcbKLIBPRRz8Y9q78ZLSvas=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.wasm"
@@ -8123,7 +8123,7 @@
       "OriginalItemSpec": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Abstractions.wasm"
     },
     {
-      "Identity": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/r9q5l3zjam-fcr8qbp9wc.gz",
+      "Identity": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/r9q5l3zjam-o1jzee5epk.gz",
       "SourceId": "carbonacci",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/",
@@ -8137,8 +8137,8 @@
       "RelatedAsset": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cv4jrh4tt3",
-      "Integrity": "mAGXw/Zo6XKk7uSfQkp1huVlAB1HtF8f8RP320Hs6k4=",
+      "Fingerprint": "kv4cuuahgb",
+      "Integrity": "sJk96SiBzM18tGzs++PragRZidEu1XXYV/5TziPwX48=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -9089,12 +9089,12 @@
       "OriginalItemSpec": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/System.Transactions.wasm"
     },
     {
-      "Identity": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/w1mjou9bre-pexkvcuuio.gz",
+      "Identity": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/w1mjou9bre-8zdvoa0gv0.gz",
       "SourceId": "carbonacci",
       "SourceType": "Computed",
       "ContentRoot": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/carbonacci#[.{fingerprint=pexkvcuuio}]!.pdb.gz",
+      "RelativePath": "_framework/carbonacci#[.{fingerprint=8zdvoa0gv0}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9103,8 +9103,8 @@
       "RelatedAsset": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pnabiaul5r",
-      "Integrity": "teTfX4zR1l18JnUKvvGcbmgA72lzkfK8rqstkgH4pd8=",
+      "Fingerprint": "orhhru5tg5",
+      "Integrity": "NDdM0Ls6fuIdQ4T4ClHqexPYq12cQcWLrJb59OXMSlI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.pdb"
@@ -10705,11 +10705,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kY0hHTgmiRzVIXBH6zjrEftZ6/Lyxgkp5qiswZKUSR4=\""
+          "Value": "\"LOGQWx42S34Jyuz6za842Vh1xlVkgXhdY/72wmFh22Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:13 GMT"
+          "Value": "Sat, 19 Apr 2025 12:36:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10719,18 +10719,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kY0hHTgmiRzVIXBH6zjrEftZ6/Lyxgkp5qiswZKUSR4="
+          "Value": "sha256-LOGQWx42S34Jyuz6za842Vh1xlVkgXhdY/72wmFh22Q="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/r9q5l3zjam-fcr8qbp9wc.gz",
+      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/r9q5l3zjam-o1jzee5epk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081439857"
+          "Quality": "0.000081433225"
         }
       ],
       "ResponseHeaders": [
@@ -10740,15 +10740,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12278"
+          "Value": "12279"
         },
         {
           "Name": "ETag",
-          "Value": "\"mAGXw/Zo6XKk7uSfQkp1huVlAB1HtF8f8RP320Hs6k4=\""
+          "Value": "\"sJk96SiBzM18tGzs++PragRZidEu1XXYV/5TziPwX48=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:15:49 GMT"
+          "Value": "Sat, 19 Apr 2025 12:33:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10768,19 +10768,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"kY0hHTgmiRzVIXBH6zjrEftZ6/Lyxgkp5qiswZKUSR4=\""
+          "Value": "W/\"LOGQWx42S34Jyuz6za842Vh1xlVkgXhdY/72wmFh22Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kY0hHTgmiRzVIXBH6zjrEftZ6/Lyxgkp5qiswZKUSR4="
+          "Value": "sha256-LOGQWx42S34Jyuz6za842Vh1xlVkgXhdY/72wmFh22Q="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/r9q5l3zjam-fcr8qbp9wc.gz",
+      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/r9q5l3zjam-o1jzee5epk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10789,7 +10789,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12278"
+          "Value": "12279"
         },
         {
           "Name": "Content-Type",
@@ -10797,11 +10797,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mAGXw/Zo6XKk7uSfQkp1huVlAB1HtF8f8RP320Hs6k4=\""
+          "Value": "\"sJk96SiBzM18tGzs++PragRZidEu1XXYV/5TziPwX48=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:15:49 GMT"
+          "Value": "Sat, 19 Apr 2025 12:33:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10819,7 +10819,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mAGXw/Zo6XKk7uSfQkp1huVlAB1HtF8f8RP320Hs6k4="
+          "Value": "sha256-sJk96SiBzM18tGzs++PragRZidEu1XXYV/5TziPwX48="
         }
       ]
     },
@@ -10961,168 +10961,7 @@
       ]
     },
     {
-      "Route": "_framework/carbonacci.k5rkntynqb.wasm",
-      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24853"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eLFeAbkLhlUCAYXStb6G8AScSt603s3/R3Ux9anRVYY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k5rkntynqb"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/carbonacci.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eLFeAbkLhlUCAYXStb6G8AScSt603s3/R3Ux9anRVYY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/carbonacci.k5rkntynqb.wasm",
-      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/norgiu173o-k5rkntynqb.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000097247885"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10282"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bAOVt3WC4Q7KfF4QylEIyTe49fG1Kt3ZRk0LS/mb6hk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"eLFeAbkLhlUCAYXStb6G8AScSt603s3/R3Ux9anRVYY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k5rkntynqb"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/carbonacci.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eLFeAbkLhlUCAYXStb6G8AScSt603s3/R3Ux9anRVYY="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/carbonacci.k5rkntynqb.wasm.gz",
-      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/norgiu173o-k5rkntynqb.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10282"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bAOVt3WC4Q7KfF4QylEIyTe49fG1Kt3ZRk0LS/mb6hk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k5rkntynqb"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/carbonacci.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-bAOVt3WC4Q7KfF4QylEIyTe49fG1Kt3ZRk0LS/mb6hk="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/carbonacci.pdb",
+      "Route": "_framework/carbonacci.8zdvoa0gv0.pdb",
       "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11132,7 +10971,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26060"
+          "Value": "25236"
         },
         {
           "Name": "Content-Type",
@@ -11140,148 +10979,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"IXX6fDO6D050hIbWeLD+uPHiqfcYnnK5LWEMuuAP05Q=\""
+          "Value": "\"fCdV9IujP2/qwhtbNhvtqXHhrvdnDY9WLOUPo7zO6VU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-IXX6fDO6D050hIbWeLD+uPHiqfcYnnK5LWEMuuAP05Q="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/carbonacci.pdb",
-      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/w1mjou9bre-pexkvcuuio.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000051980455"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "19237"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"teTfX4zR1l18JnUKvvGcbmgA72lzkfK8rqstkgH4pd8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"IXX6fDO6D050hIbWeLD+uPHiqfcYnnK5LWEMuuAP05Q=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-IXX6fDO6D050hIbWeLD+uPHiqfcYnnK5LWEMuuAP05Q="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/carbonacci.pdb.gz",
-      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/w1mjou9bre-pexkvcuuio.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "19237"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"teTfX4zR1l18JnUKvvGcbmgA72lzkfK8rqstkgH4pd8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-teTfX4zR1l18JnUKvvGcbmgA72lzkfK8rqstkgH4pd8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/carbonacci.pexkvcuuio.pdb",
-      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26060"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"IXX6fDO6D050hIbWeLD+uPHiqfcYnnK5LWEMuuAP05Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:12 GMT"
+          "Value": "Sat, 19 Apr 2025 12:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11291,7 +10993,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pexkvcuuio"
+          "Value": "8zdvoa0gv0"
         },
         {
           "Name": "label",
@@ -11299,18 +11001,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IXX6fDO6D050hIbWeLD+uPHiqfcYnnK5LWEMuuAP05Q="
+          "Value": "sha256-fCdV9IujP2/qwhtbNhvtqXHhrvdnDY9WLOUPo7zO6VU="
         }
       ]
     },
     {
-      "Route": "_framework/carbonacci.pexkvcuuio.pdb",
-      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/w1mjou9bre-pexkvcuuio.gz",
+      "Route": "_framework/carbonacci.8zdvoa0gv0.pdb",
+      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/w1mjou9bre-8zdvoa0gv0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000051980455"
+          "Quality": "0.000054241701"
         }
       ],
       "ResponseHeaders": [
@@ -11320,15 +11022,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19237"
+          "Value": "18435"
         },
         {
           "Name": "ETag",
-          "Value": "\"teTfX4zR1l18JnUKvvGcbmgA72lzkfK8rqstkgH4pd8=\""
+          "Value": "\"NDdM0Ls6fuIdQ4T4ClHqexPYq12cQcWLrJb59OXMSlI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:13 GMT"
+          "Value": "Sat, 19 Apr 2025 12:36:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11348,13 +11050,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"IXX6fDO6D050hIbWeLD+uPHiqfcYnnK5LWEMuuAP05Q=\""
+          "Value": "W/\"fCdV9IujP2/qwhtbNhvtqXHhrvdnDY9WLOUPo7zO6VU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pexkvcuuio"
+          "Value": "8zdvoa0gv0"
         },
         {
           "Name": "label",
@@ -11362,13 +11064,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-IXX6fDO6D050hIbWeLD+uPHiqfcYnnK5LWEMuuAP05Q="
+          "Value": "sha256-fCdV9IujP2/qwhtbNhvtqXHhrvdnDY9WLOUPo7zO6VU="
         }
       ]
     },
     {
-      "Route": "_framework/carbonacci.pexkvcuuio.pdb.gz",
-      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/w1mjou9bre-pexkvcuuio.gz",
+      "Route": "_framework/carbonacci.8zdvoa0gv0.pdb.gz",
+      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/w1mjou9bre-8zdvoa0gv0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11377,7 +11079,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19237"
+          "Value": "18435"
         },
         {
           "Name": "Content-Type",
@@ -11385,11 +11087,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"teTfX4zR1l18JnUKvvGcbmgA72lzkfK8rqstkgH4pd8=\""
+          "Value": "\"NDdM0Ls6fuIdQ4T4ClHqexPYq12cQcWLrJb59OXMSlI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:13 GMT"
+          "Value": "Sat, 19 Apr 2025 12:36:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11407,7 +11109,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pexkvcuuio"
+          "Value": "8zdvoa0gv0"
         },
         {
           "Name": "label",
@@ -11415,7 +11117,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-teTfX4zR1l18JnUKvvGcbmgA72lzkfK8rqstkgH4pd8="
+          "Value": "sha256-NDdM0Ls6fuIdQ4T4ClHqexPYq12cQcWLrJb59OXMSlI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/carbonacci.pdb",
+      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25236"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fCdV9IujP2/qwhtbNhvtqXHhrvdnDY9WLOUPo7zO6VU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 12:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fCdV9IujP2/qwhtbNhvtqXHhrvdnDY9WLOUPo7zO6VU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/carbonacci.pdb",
+      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/w1mjou9bre-8zdvoa0gv0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000054241701"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18435"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NDdM0Ls6fuIdQ4T4ClHqexPYq12cQcWLrJb59OXMSlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 12:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fCdV9IujP2/qwhtbNhvtqXHhrvdnDY9WLOUPo7zO6VU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fCdV9IujP2/qwhtbNhvtqXHhrvdnDY9WLOUPo7zO6VU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/carbonacci.pdb.gz",
+      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/w1mjou9bre-8zdvoa0gv0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NDdM0Ls6fuIdQ4T4ClHqexPYq12cQcWLrJb59OXMSlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 12:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NDdM0Ls6fuIdQ4T4ClHqexPYq12cQcWLrJb59OXMSlI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/carbonacci.pvgpf1eg3y.wasm",
+      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23317"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S+tQKnS5/iHATjCcdzsKKkedHRIEvdZ9AUi4qB+V/U0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 12:36:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pvgpf1eg3y"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/carbonacci.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S+tQKnS5/iHATjCcdzsKKkedHRIEvdZ9AUi4qB+V/U0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/carbonacci.pvgpf1eg3y.wasm",
+      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/norgiu173o-pvgpf1eg3y.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000104613453"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9558"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YeVnR2j4YKPfibLlK1IxGcbKLIBPRRz8Y9q78ZLSvas=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 12:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"S+tQKnS5/iHATjCcdzsKKkedHRIEvdZ9AUi4qB+V/U0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pvgpf1eg3y"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/carbonacci.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S+tQKnS5/iHATjCcdzsKKkedHRIEvdZ9AUi4qB+V/U0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/carbonacci.pvgpf1eg3y.wasm.gz",
+      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/norgiu173o-pvgpf1eg3y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YeVnR2j4YKPfibLlK1IxGcbKLIBPRRz8Y9q78ZLSvas=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 12:36:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pvgpf1eg3y"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/carbonacci.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YeVnR2j4YKPfibLlK1IxGcbKLIBPRRz8Y9q78ZLSvas="
         }
       ]
     },
@@ -11430,7 +11430,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24853"
+          "Value": "23317"
         },
         {
           "Name": "Content-Type",
@@ -11438,11 +11438,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eLFeAbkLhlUCAYXStb6G8AScSt603s3/R3Ux9anRVYY=\""
+          "Value": "\"S+tQKnS5/iHATjCcdzsKKkedHRIEvdZ9AUi4qB+V/U0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:12 GMT"
+          "Value": "Sat, 19 Apr 2025 12:36:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11452,18 +11452,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eLFeAbkLhlUCAYXStb6G8AScSt603s3/R3Ux9anRVYY="
+          "Value": "sha256-S+tQKnS5/iHATjCcdzsKKkedHRIEvdZ9AUi4qB+V/U0="
         }
       ]
     },
     {
       "Route": "_framework/carbonacci.wasm",
-      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/norgiu173o-k5rkntynqb.gz",
+      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/norgiu173o-pvgpf1eg3y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000097247885"
+          "Quality": "0.000104613453"
         }
       ],
       "ResponseHeaders": [
@@ -11473,15 +11473,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10282"
+          "Value": "9558"
         },
         {
           "Name": "ETag",
-          "Value": "\"bAOVt3WC4Q7KfF4QylEIyTe49fG1Kt3ZRk0LS/mb6hk=\""
+          "Value": "\"YeVnR2j4YKPfibLlK1IxGcbKLIBPRRz8Y9q78ZLSvas=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:13 GMT"
+          "Value": "Sat, 19 Apr 2025 12:36:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11501,19 +11501,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"eLFeAbkLhlUCAYXStb6G8AScSt603s3/R3Ux9anRVYY=\""
+          "Value": "W/\"S+tQKnS5/iHATjCcdzsKKkedHRIEvdZ9AUi4qB+V/U0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eLFeAbkLhlUCAYXStb6G8AScSt603s3/R3Ux9anRVYY="
+          "Value": "sha256-S+tQKnS5/iHATjCcdzsKKkedHRIEvdZ9AUi4qB+V/U0="
         }
       ]
     },
     {
       "Route": "_framework/carbonacci.wasm.gz",
-      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/norgiu173o-k5rkntynqb.gz",
+      "AssetFile": "/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/norgiu173o-pvgpf1eg3y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11522,7 +11522,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10282"
+          "Value": "9558"
         },
         {
           "Name": "Content-Type",
@@ -11530,11 +11530,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bAOVt3WC4Q7KfF4QylEIyTe49fG1Kt3ZRk0LS/mb6hk=\""
+          "Value": "\"YeVnR2j4YKPfibLlK1IxGcbKLIBPRRz8Y9q78ZLSvas=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 11:17:13 GMT"
+          "Value": "Sat, 19 Apr 2025 12:36:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11552,7 +11552,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bAOVt3WC4Q7KfF4QylEIyTe49fG1Kt3ZRk0LS/mb6hk="
+          "Value": "sha256-YeVnR2j4YKPfibLlK1IxGcbKLIBPRRz8Y9q78ZLSvas="
         }
       ]
     },

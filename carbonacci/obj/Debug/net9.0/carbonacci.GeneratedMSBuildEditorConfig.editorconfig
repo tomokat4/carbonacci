@@ -28,16 +28,12 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+[/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
+[/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/Pages/Calculator.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FsY3VsYXRvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/_Imports.razor]
