@@ -1075,10 +1075,10 @@
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/carbonacci.pdb
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/ref/carbonacci.dll
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/carbonacci.sourcelink.json
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.i0yqv5c5b1.pdb
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.hd8naohkzf.wasm
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.hd8naohkzf.wasm.gz
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.i0yqv5c5b1.pdb.gz
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/norgiu173o-hd8naohkzf.gz
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/w1mjou9bre-i0yqv5c5b1.gz
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/r9q5l3zjam-uykeygyfko.gz
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.j29xyh3sm8.pdb
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.v7pwwqq5o3.wasm
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.v7pwwqq5o3.wasm.gz
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Debug/net9.0/wwwroot/_framework/carbonacci.j29xyh3sm8.pdb.gz
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/norgiu173o-v7pwwqq5o3.gz
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/w1mjou9bre-j29xyh3sm8.gz
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Debug/net9.0/compressed/r9q5l3zjam-fq2xgybk07.gz
