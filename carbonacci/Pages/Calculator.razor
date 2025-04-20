@@ -11,7 +11,7 @@
         <label for="beerType">Select fermentation type:</label>
         <InputSelect @bind-Value="parameters.BeerType" id="beerType" class="form-control" @onchange="OnBeerTypeChanged">
             <option value="">Select...</option>
-            <option value="Uncarbonated">Uncarbonated (Force carbonation chart)</option>
+            @*<option value="Uncarbonated">Uncarbonated (Force carbonation chart)</option>*@
             <option value="PressureFermented">Pressure Fermented (Henry's law)</option>
         </InputSelect>
     </div>

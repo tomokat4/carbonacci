@@ -1,7 +1,5 @@
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/blazor.boot.json
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/blazor.webassembly.js
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/carbonacci.cjd7iw2vrn.pdb
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/carbonacci.kjypuh3mdo.wasm
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/dotnet.js
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/dotnet.js.map
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/dotnet.native.8o8n7iomrf.js
@@ -328,7 +326,6 @@
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/Microsoft.Extensions.Primitives.3pkwbmnqmy.wasm.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/System.Xml.Linq.wpsaw4fs0c.wasm.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Physical.59vcbg751z.wasm.gz
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/carbonacci.kjypuh3mdo.wasm.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/System.Security.Cryptography.Algorithms.szchu0omsd.wasm.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/System.Diagnostics.DiagnosticSource.3u89chdpwh.wasm.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/System.Diagnostics.Contracts.g37ic7xnxa.wasm.gz
@@ -390,7 +387,6 @@
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/mscorlib.l6md3pggqy.wasm.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/netstandard.lij9csiyuf.wasm.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/System.Transactions.eqportussb.wasm.gz
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/carbonacci.cjd7iw2vrn.pdb.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/System.Runtime.InteropServices.k720ljpkms.wasm.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/System.Runtime.Serialization.Primitives.3q7zsjzsco.wasm.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/Microsoft.CSharp.0krj4ve566.wasm.gz
@@ -1065,9 +1061,6 @@
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/compressed/qdvzhfzbk7-tjcz0u77k5.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/compressed/4f9g6ovcr8-tptq2av103.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/compressed/x478ovx39i-lfu7j35m59.gz
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/compressed/norgiu173o-kjypuh3mdo.gz
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/compressed/w1mjou9bre-cjd7iw2vrn.gz
-/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/compressed/r9q5l3zjam-ncsjt36p7i.gz
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/staticwebassets.build.json
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/staticwebassets.development.json
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/staticwebassets.build.endpoints.json
@@ -1082,3 +1075,10 @@
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/refint/carbonacci.dll
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/carbonacci.pdb
 /Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/ref/carbonacci.dll
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/carbonacci.zy7bmia1tz.pdb
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/carbonacci.pj7v1w1l3z.wasm
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/carbonacci.pj7v1w1l3z.wasm.gz
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/bin/Release/net9.0/wwwroot/_framework/carbonacci.zy7bmia1tz.pdb.gz
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/compressed/norgiu173o-pj7v1w1l3z.gz
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/compressed/w1mjou9bre-zy7bmia1tz.gz
+/Users/alexanderkilli/Desktop/hobbypiss/carbonacci/carbonacci/obj/Release/net9.0/compressed/r9q5l3zjam-4whqns4pjy.gz
