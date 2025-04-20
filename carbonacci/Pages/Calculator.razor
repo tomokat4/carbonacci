@@ -10,6 +10,7 @@
     <div class="form-group text-center">
         <label for="beerType">Select fermentation type:</label>
         <InputSelect @bind-Value="parameters.BeerType" id="beerType" class="form-control" @onchange="OnBeerTypeChanged">
+            <option value="">Select...</option>
             <option value="Uncarbonated">Uncarbonated (Force carbonation chart)</option>
             <option value="PressureFermented">Pressure Fermented (Henry's law)</option>
         </InputSelect>
@@ -45,8 +46,8 @@
 {
     <div class="text-center">
         <h4>Results</h4>
-        <p><strong>Existing CO2 weight in the beer:</strong> @calculationResult.ExistingCO2g gram</p>
-        @*<p><strong>Existing volumes of CO2 in the beer:</strong> @calculationResult.Pressure bar</p>*@
+        <p><strong>Total amount of CO2 weight required for desired carbonation (Simple):</strong> @calculationResult.SimpleCO2gNeeded gram</p>
+        <p><strong>Existing CO2 weight in the beer (Henry' law):</strong> @calculationResult.ExistingCO2g gram</p>
         <p><strong>Needed CO2 weight for desired carbonation:</strong> @calculationResult.MissingCO2g gram</p>
         @*<p><strong>Pressure to reach equilibrium at desired carbonation volume:</strong> @calculationResult.Pressure bar</p>*@
     </div>
@@ -89,12 +90,15 @@
         public double MissingCO2g { get; set; }   // Manglende CO2 for ønsket karbonering i gram
         public double Pressure { get; set; }      // Trykk som må påføres
         public double CarbonationTime { get; set; } // Tid for karbonering i dager
+
+        public double SimpleCO2gNeeded { get; set; } // Enkel CO2-mengde i gram
+
     }
 
     public static class CarbonationCalculator
     {
         private const double k0H = 3.3e-2;               // Henrys konstant ved 298.15 K i mol/(L·bar)
-        private const double TempDependence = -2200;     // Temperaturavhengighet (K)
+        private const double TempDependence = 2400;     // Temperaturavhengighet (K)
         private const double MolarMassCO2 = 44.01;       // g/mol
         private const double MolarVolumeSTP = 22.4;      // L/mol
 
@@ -145,12 +149,15 @@
 
             double carbonationTime = 7; // Placeholder
 
+            double CO2gNeeded = CO2simpleWeightCalculator(parameters.Volume, parameters.DesiredCarbonation);
+
             return new CarbonationResult
             {
                 ExistingCO2g = existingCO2g,
                 MissingCO2g = missingCO2g,
                 Pressure = requiredPressure,
-                CarbonationTime = carbonationTime
+                CarbonationTime = carbonationTime,
+                SimpleCO2gNeeded = CO2gNeeded
             };
         }
 
@@ -167,6 +174,14 @@
             double concentration = molCO2 / volume;
             double kH = CalculateHenryConstant(k0H, temperatureDependence, temperatureCelsius);
             return concentration / kH;
+        }
+
+        public static double CO2simpleWeightCalculator(double volume, double DesiredCarbonation)
+        {
+            // Beregn ønsket CO2-masse i gram for enkel karbonering
+            double standardCO2weight = 1.964;
+            double desiredCO2Mass = volume * DesiredCarbonation * standardCO2weight;
+            return desiredCO2Mass;
         }
 
         public class CO2VolumeConverter

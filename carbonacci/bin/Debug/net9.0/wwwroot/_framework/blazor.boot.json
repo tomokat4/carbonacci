@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "carbonacci",
   "resources": {
-    "hash": "sha256-V5XNM5NWzn2h6znDCmYDJWBkwpqsaEMN4jRx5MHsznA=",
+    "hash": "sha256-/JpaL+Yxehk/KUHzcPK3GCLiD1zzP4RU3qAwxHDmzrs=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.n41ua9ceve.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.h4ild4sjod.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "carbonacci.v7pwwqq5o3.wasm": "carbonacci.wasm",
-      "carbonacci.j29xyh3sm8.pdb": "carbonacci.pdb"
+      "carbonacci.zdu8opyr6m.wasm": "carbonacci.wasm",
+      "carbonacci.qdyxjldsva.pdb": "carbonacci.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8o8n7iomrf.js": "sha256-WIUiy49hHQ3kOAtRdCtUzm3Yg5BnOqCC+Q+kri9Fi1g="
@@ -412,10 +412,10 @@
       "WindowsBase.ovqw333kan.wasm": "sha256-7LCr4nX9JSGuwzMr8Rk8TGvC6ApzQNxCDiMV/0I9JlI=",
       "mscorlib.l6md3pggqy.wasm": "sha256-jZgH0LixLeQKqaq33akQgDGhfE7vbXbHtvCId5HC0Yo=",
       "netstandard.lij9csiyuf.wasm": "sha256-DeeBl9s8G34N3IfYRQ+MoY807amodj8cvpuvUSNaWE4=",
-      "carbonacci.v7pwwqq5o3.wasm": "sha256-q+9iS7qytCwSNT0Niql0v3uJ3HX+PQXbrI+15JscAFw="
+      "carbonacci.zdu8opyr6m.wasm": "sha256-10eGDJhpdapVTv3j/+UFq01I47zYH+QCL0JCWR3SLM4="
     },
     "pdb": {
-      "carbonacci.j29xyh3sm8.pdb": "sha256-KyImQHNtX4F/15+0Gh3U/UIgP06rWpZOuwjNDrRtseI="
+      "carbonacci.qdyxjldsva.pdb": "sha256-spxnQLAN8cCpDXCH5L/k+/RZns0ivj99N7hGtd9WYFE="
     }
   },
   "cacheBootResources": true,

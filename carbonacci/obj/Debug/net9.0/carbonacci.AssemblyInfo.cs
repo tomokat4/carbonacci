@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("carbonacci")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+814d53382508908277be111e11830d49dae74434")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+270c81c623f5ff5de5642a681adb37f0a56b4f5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("carbonacci")]
 [assembly: System.Reflection.AssemblyTitleAttribute("carbonacci")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
