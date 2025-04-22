@@ -38,17 +38,18 @@
             <InputNumber @bind-Value="parameters.FermentationPressure" id="fermentationPressure" class="form-control" />
         </div>
     }
+    
+    <button type="submit" class="btn btn-primary d-block mx-auto" style="margin-top: 20px;">Calculate</button>
 
-    <button type="submit" class="btn btn-primary d-block mx-auto">Calculate</button>
 </EditForm>
 
 @if (calculationResult != null)
 {
-    <div class="text-center">
+    <div class="text-center" style="margin-top: 20px;">
         <h4>Results</h4>
-        <p><strong>Total amount of CO2 weight required for desired carbonation (Simple):</strong> @calculationResult.SimpleCO2gNeeded gram</p>
-        <p><strong>Existing CO2 weight in the beer (Henry' law):</strong> @calculationResult.ExistingCO2g gram</p>
-        <p><strong>Needed CO2 weight for desired carbonation:</strong> @calculationResult.MissingCO2g gram</p>
+        <p><strong>Total amount of CO2 weight required for desired carbonation (Simple):</strong> @calculationResult.SimpleCO2gNeeded.ToString("F1") gram</p>
+        <p><strong>Existing CO2 weight in the beer (Henry's law):</strong> @calculationResult.ExistingCO2g.ToString("F1") gram</p>
+        <p><strong>Needed CO2 weight for desired carbonation:</strong> @calculationResult.MissingCO2g.ToString("F1") gram</p>
         @*<p><strong>Pressure to reach equilibrium at desired carbonation volume:</strong> @calculationResult.Pressure bar</p>*@
     </div>
 }
@@ -59,7 +60,6 @@
 
     private void OnBeerTypeChanged(ChangeEventArgs e)
     {
-        // Tilbakestill fermenteringstrykk hvis type endres
         parameters.FermentationPressure = 0;
     }
 
@@ -86,23 +86,23 @@
 
     public class CarbonationResult
     {
-        public double ExistingCO2g { get; set; }  // Eksisterende CO2 i gram
-        public double MissingCO2g { get; set; }   // Manglende CO2 for ønsket karbonering i gram
-        public double Pressure { get; set; }      // Trykk som må påføres
-        public double CarbonationTime { get; set; } // Tid for karbonering i dager
+        public double ExistingCO2g { get; set; }
+        public double MissingCO2g { get; set; }
+        public double Pressure { get; set; }
+        public double CarbonationTime { get; set; }
 
-        public double SimpleCO2gNeeded { get; set; } // Enkel CO2-mengde i gram
+        public double SimpleCO2gNeeded { get; set; }
 
     }
 
     public static class CarbonationCalculator
     {
-        private const double k0H = 3.3e-2;               // Henrys konstant ved 298.15 K i mol/(L·bar)
-        private const double TempDependence = 2400;     // Temperaturavhengighet (K)
+        private const double k0H = 3.3e-2;               // Henrys constant at 298.15 K i mol/(L·bar)
+        private const double TempDependence = 2400;     // Henry's temperaturedependence constant (K)
         private const double MolarMassCO2 = 44.01;       // g/mol
         private const double MolarVolumeSTP = 22.4;      // L/mol
 
-        // Beregning for standard force-carbonation (ukarbonsert øl)
+        // TODO add a basic forced carbonation chart here
         public static CarbonationResult CalculateStandardCarbonation(CarbonationParameters parameters)
         {
             var carbonationTable = new Dictionary<int, double>
@@ -118,7 +118,7 @@
                 ? carbonationTable[(int)parameters.Temperature]
                 : 2.5;  // Default value
 
-            double carbonationTime = 7; // Standard tid for force-carbonation
+            double carbonationTime = 7; // TODO
 
             return new CarbonationResult
             {
@@ -127,29 +127,29 @@
             };
         }
 
-        // Beregning for trykkfermentert øl basert på Henrys lov
         public static CarbonationResult CalculatePressureFermentation(CarbonationParameters parameters)
         {
             double kH = CalculateHenryConstant(k0H, TempDependence, parameters.Temperature);
+            double CO2gNeeded = CO2simpleWeightCalculator(parameters.Volume, parameters.DesiredCarbonation);
 
-            // Beregn eksisterende CO2 i ølet (mol)
+
+            // Calculate existing CO2 in the beer using Henry's law
             double existingMolPerL = kH * parameters.FermentationPressure;
             double existingMolTotal = existingMolPerL * parameters.Volume;
-            double existingCO2g = existingMolTotal * MolarMassCO2;
+            double existingCO2gUnconverted = existingMolTotal * MolarMassCO2;
+            double existingCO2g = ConvertToSTP(existingCO2gUnconverted, parameters.Temperature);
 
-            // Ønsket mengde CO2 i gram basert på volum (vol CO2 / vol øl)
+            // Desired CO2 mass in grams for the desired carbonation level
             double desiredCO2g = CO2VolumeConverter.ConvertVolumesToCO2Mass(parameters.DesiredCarbonation, parameters.Volume);
 
-            // Manglende CO2 for ønsket karbonering
-            double missingCO2g = desiredCO2g - existingCO2g;
+            // Missing CO2 mass in grams
+            double missingCO2g = CO2gNeeded - existingCO2g;
             if (missingCO2g < 0) missingCO2g = 0;
 
-            // Beregn trykket som kreves for å oppnå ønsket CO2-mengde
+            // TODO: Calculate the pressure needed to reach the desired carbonation level
             double requiredPressure = CalculateEquilibriumPressure(desiredCO2g, parameters.Volume, parameters.Temperature, k0H, TempDependence);
 
             double carbonationTime = 7; // Placeholder
-
-            double CO2gNeeded = CO2simpleWeightCalculator(parameters.Volume, parameters.DesiredCarbonation);
 
             return new CarbonationResult
             {
@@ -178,17 +178,32 @@
 
         public static double CO2simpleWeightCalculator(double volume, double DesiredCarbonation)
         {
-            // Beregn ønsket CO2-masse i gram for enkel karbonering
+            // TODO: Implement a more accurate calculation for CO2 weight based on the desired carbonation level.
             double standardCO2weight = 1.964;
             double desiredCO2Mass = volume * DesiredCarbonation * standardCO2weight;
             return desiredCO2Mass;
         }
 
+        public static double ConvertToSTP(double co2Weight, double temperatureCelsius)
+        {
+    // Constants for STP (Standard Temperature and Pressure)
+          const double stpTemperatureK = 273.15; // 0°C in Kelvin
+          const double stpPressureATM = 1.0; // 1 atm
+
+          // Convert the given temperature to Kelvin
+          double temperatureK = temperatureCelsius + 273.15;
+
+         // Use the Ideal Gas Law relationship to adjust for temperature (since pressure is proportional to temperature in this case)
+         // co2Weight is the weight of CO2 at the given temperature in grams
+
+          // Convert the weight of CO2 at the given temperature to the equivalent weight at STP
+          double co2WeightAtSTP = co2Weight * (stpTemperatureK / temperatureK);
+
+          return co2WeightAtSTP;
+        }
+
         public class CO2VolumeConverter
         {
-            /// <summary>
-            /// Konverterer ønsket CO₂-volum (i volumes) til gram CO₂ for gitt væskevolum.
-            /// </summary>
             public static double ConvertVolumesToCO2Mass(double desiredVolumes, double beerVolumeLiters)
             {
                 double totalCO2Liters = desiredVolumes * beerVolumeLiters;
@@ -197,5 +212,6 @@
                 return gramsCO2;
             }
         }
+            
     }
 }

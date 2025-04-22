@@ -1,6 +1,33 @@
 ﻿@page "/About"
 
-<PageTitle>About</PageTitle>
-
-<h1>Placeholder Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur, voluptatibus earum error eligendi nihil odio, natus dolor quae non sapiente quidem doloribus. Praesentium perspiciatis quo nostrum, voluptatum quis veritatis. </h1>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Beer Carbonation Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>About the Beer Carbonation Calculator</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Overview</h2>
+            <p>This calculator estimates the CO2 content in beer during fermentation and calculates the amount of additional CO2 required to reach a desired carbonation level.</p>
+        </section>
+        <section>
+            <h2>Functions</h2>
+            <ul>
+                <li><strong>Estimates total required CO2 weight (Simple):</strong> Uses a simple calculation based on total volume of beer, desired volumes of co2 and the weight of 1 litres of co2 at standard temperature and pressure.</li>
+                <li><strong>Estimates the existing weight of CO2 from spunding:</strong> Uses henry's law to calculate the amount of co2 left in the beer after spunding using volume, temperature and pressure.</li>
+                <li><strong>Estimates the amount of co2 to be added to reach desired volumes of co2:</strong> Using numbers from the above functions to provide the amount of grams of co2 you need to add to reach desired carbonation level.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Background</h2>
+            <p>The calculator is based on Henry's law and aims to help brewers carbonate their beer using CO2 naturapressure fermented beers correctly taking into account the amount of co2 already in the beer, removing a lot of guesswork.</p>
+        </section>
+    </main>
+</body>
+</html>
